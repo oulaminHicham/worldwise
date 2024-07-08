@@ -1,0 +1,7 @@
+.get--geolocation{
+    width: 150px;
+    position: absolute;
+    z-index: 177700;
+    bottom:120px ;
+    left: calc(50% - 150px);
+}

@@ -1,0 +1,35 @@
+.user {
+  position: absolute;
+  top: 0.2rem;
+  left: 0.1rem;
+  background-color: #222;
+  padding: 0.5rem 0.4rem;
+  border-radius: 7px;
+  z-index: 999;
+  box-shadow: 0 0.8rem 2.4rem #242a2e80;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.user img {
+  border-radius: 100px;
+  height: 4rem;
+}
+
+.user button {
+  background-color: #444;
+  border-radius: 7px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}

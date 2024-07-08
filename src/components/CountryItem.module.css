@@ -1,0 +1,31 @@
+.countryItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  margin-bottom: 5px;
+
+  background-color:#444;
+  border-radius: 7px;
+  padding:10px;
+  border-left: 5px solid #aaff99;
+}
+
+.countryItem span:first-child {
+  font-size: 3rem;
+  line-height: 1;
+}
+.deleteBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #5e5a5a;
+  color: #FFF;
+}
+.deleteBtn:hover{
+  background-color: #686808;
+}

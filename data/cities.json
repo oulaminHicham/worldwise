@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Tabelbala",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2024-05-02T19:58:46.045Z",
+      "notes": "",
+      "position": {
+        "lat": 29.420460341013158,
+        "lng": -3.0322265625000004
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Bin El Ouidane",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2024-06-07T18:10:03.507Z",
+      "notes": "",
+      "position": {
+        "lat": 32.10118973232094,
+        "lng": -6.416015625000001
+      },
+      "id": 2
+    },
+    {
+      "cityName": "Fritissa",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2024-06-07T18:10:10.148Z",
+      "notes": "",
+      "position": {
+        "lat": 33.578014746144014,
+        "lng": -3.251953125
+      },
+      "id": 3
+    }
+  ]
+}
