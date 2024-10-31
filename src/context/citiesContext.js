@@ -24,7 +24,7 @@ function reducer(state , action){
     case 'CITIES/CREATE':
       return {...state , cities:[...state.cities , action.payload] , loading:false}
     case 'CITIES/DELETE':
-      return {...state , cities:state.cities.filter((city)=>city.id != action.payload), loading:false}
+      return {...state , cities:state.cities.filter((city)=>city.id !== action.payload), loading:false}
     default:
       return state ;
   }

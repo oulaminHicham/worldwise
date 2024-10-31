@@ -16,7 +16,7 @@ const Map = () => {
     const [lat , lng]=useUrlPosition();
 
     useEffect(function(){
-        if(lat , lng) setPosition([lat , lng])
+        if(lat ||  lng) setPosition([lat , lng])
     },[lat , lng])
 
     useEffect(function(){

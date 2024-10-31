@@ -19,7 +19,7 @@ export default function Login() {
   }
   useEffect(function(){
     if(isAthenticated) navigate('/app' , {replace:true})
-  },[isAthenticated])
+  },[isAthenticated , navigate])
 
   return (
     <main className={styles.login}>
